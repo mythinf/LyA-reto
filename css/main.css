@@ -1,0 +1,20 @@
+body {
+ font-family: 'Raleway', sans-serif !important;
+ color: white;
+}
+.grad70 {
+  background:linear-gradient(	#C71585, #9400D3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+.container-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.logo{
+ width: 400px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-image: url(../assets/img/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  font-family: 'Raleway', sans-serif !important;
+}
+.container-flex{
+	display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items:center;
+  height: 100vh;
+}
+.logo-pink{
+  width: 400px;
+}
+.btn-background {
+  background: #C71585;
+  font-size: 25px;
+  font-weight: 15px;
+  opacity: 0.6;
+}
+.btn-background:hover{
+  color: #000000 !important;
+  background: #ffff !important;
+}
