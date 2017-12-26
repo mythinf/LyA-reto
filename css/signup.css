@@ -1,0 +1,16 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container-flex{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.text-header{
+  margin-right: 15%;
+}
+a{
+  text-decoration: none;
+}
