@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="../css/signup.css">
 	<title>Sign up</title>
 </head>
-<body>
+<body class="grad70 vh100">
 	<!---AGREGANDO HEADER-->
 	<header>
 	  <div class="container">
@@ -34,26 +34,30 @@
 				<div class="col-xs-12">
 					<div class="input-group">
 					  <div class="input-group-btn">
+							<!---AGREGANDO BOTON DESPLEGABLE PARA PAISES-->
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Países <span class="caret"></span></button>
 							<ul class="dropdown-menu">
+								<!---AGREGANDO LISTA DE OPCIONES DE PAISES-->
 								<li><a><img src="../assets/img/colombia_flag.png" alt="">Colombia</a></li>
 								<li><a><img src="../assets/img/mexico_flag.png" alt="">México</a></li>
 								<li><a><img src="../assets/img/peru_flag.png" alt="">Perú</a></li>
 								<li><a><img src="../assets/img/usa_flag.png" alt="">EE.UU</a></li>
 							</ul>
 					  </div>
-					  <input type="tel" class="form-control" name="telefono" aria-label="...">
+						<!---AGREGANDO INPUT PARA NUMERO TEL-->
+					  <input type="tel" class="form-control" name="telefono" id="inputNumber" placeholder="00-000000000" aria-label="...">
 					</div>
 			  </div>
-
 			</div>
 			<div class="row margin-top">
 				<div class="col-xs-12">
-          <button type="button" class="btn btn-primary btn-lg btn-block pink" disabled>Sign up</button>
+					<!---AGREGANDO BOTON REGISTRARSE (DESACTIVADO)-->
+          <button type="button" class="btn btn-primary btn-lg btn-block pink" disabled>NEXT</button>
 				</div>
 			</div>
 		</div>
 	</main>
+	<!---ENLAZANDO ARCHIVOS JS-->
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
 	<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script src="../js/signup.js"></script>

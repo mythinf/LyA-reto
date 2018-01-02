@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="../css/signup.css">
+	<title>Sign up</title>
+</head>
+<body class="grad70 vh100">
+  <!---AGREGANDO HEADER-->
+	<header>
+	  <div class="container">
+		  <div class="row">
+				<div class="col-xs-2">
+					<div class="slide-buttons container-flex-row">
+            <a href="home.html" type="button" class="btn btn-success pink">
+              <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+            </a>
+          </div>
+				</div>
+				<div class="col-xs-10 center white">
+					<h1>Verificando código</h1>
+			  </div>
+      </div>
+	 </div>
+	</header>
+  <main>
+    <div class="row">
+      <div class="col-xs-12">
+        <!---AGREGANDO INPUT DE VERIFICACION DE CÓDIGO-->
+        <input type="tel" class="form-control" name="telefono" id="inputCode" placeholder="Ingrese sólo los 3 dígitos" aria-label="...">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <!---AGREGANDO BOTON REGISTRARSE (DESACTIVADO)-->
+        <button type="button" class="btn btn-primary btn-lg btn-block pink" disabled>NEXT</button>
+      </div>
+    </div>
+  </main>
+	<!---ENLAZANDO ARCHIVOS JS-->
+	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/verifi.js"></script>
+</body>
+</html>

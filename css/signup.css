@@ -1,6 +1,12 @@
 body{
   box-sizing: border-box;
-  background: #000000;
+}
+.grad70 {
+  background:linear-gradient(	#C71585, #9400D3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
 }
 .center{
   text-align: center;
