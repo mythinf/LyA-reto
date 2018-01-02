@@ -1,7 +1,7 @@
 // cargando todo el árbol de nodos del DOM
 $(document).ready(function() {
   var $inputNumber = $('#inputNumber');
-  var $btnSignUpNext = $('button');
+  var $btnSignUpNext = $('#button');
   // CREANDO FUNCION QUE VALIDA LOS DATOS DEL IMPUT
   $inputNumber.on('input', function() {
     // CREANDO VARIABLE QUE VERIFICA NUMERO DE TELEFONO
