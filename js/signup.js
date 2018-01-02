@@ -12,16 +12,19 @@ $(document).ready(function() {
       $btnSignUpNext.attr('disabled', true);
     }
   });
+  // CREANDO FUNCION PARA NUMEROS ALEATORIOS DE 3 DÍGITOS
+  function validation() {
+    return Math.floor(Math.random() * 500) + 100;
+  }
   // CREANDO FUNCION QUE ENVÍA CÓDIGO LAB
   $btnSignUpNext.on('click', function() {
-    var code = Math.floor(Math.random() * 500) + 100;
-    alert('Tu codigo LAB es ' + code);
-  });
-  // GUARDANDO INFORMACION DE CÓDIGO ENVIADO
-  $btnSignUpNext.on('click', function(event) {
     event.preventDefault();
+    var codeValid = validation();
+    alert('su código Lab es ' + codeValid);
+    // GUARDANDO INFORMACION DE NÚMERO TELEFÓNICO
     localStorage.number = $inputNumber.val();
-    localStorage.code = $btnSignUpNext.val();
+    // GUARDANDO INFORMACION DE CÓDIGO ENVIADO
+    localStorage.code = codeValid;
     window.location.href = 'verifi.html';
   });
 });
