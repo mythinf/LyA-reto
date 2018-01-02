@@ -1,16 +1,20 @@
 body{
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  background: #000000;
 }
-.container-flex{
-display: flex;
-align-items: center;
-justify-content: space-around;
+.center{
+  text-align: center;
 }
-.text-header{
-  margin-right: 15%;
+.white{
+  color: white;
 }
-a{
-  text-decoration: none;
+.pink{
+  background: #FF1493;
+}
+.pink:active{
+  background: #ffff !important;
+  color: #FF1493 !important;
+}
+.margin-top{
+  margin-top: 30px;
 }

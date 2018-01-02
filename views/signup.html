@@ -10,47 +10,50 @@
 	<title>Sign up</title>
 </head>
 <body>
+	<!---AGREGANDO HEADER-->
 	<header>
-		<div class="container">
-			<div class="page-header container-flex">
-			  <div class="row">
-				  <a href= "../views/home.html"> <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span> </a>
-        </div>
-			  <div class="row text-header ">
+	  <div class="container">
+		  <div class="row">
+				<div class="col-xs-2">
+					<div class="slide-buttons container-flex-row">
+            <a href="home.html" type="button" class="btn btn-success pink">
+              <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+            </a>
+          </div>
+				</div>
+				<div class="col-xs-10 center white">
 					<h1>Sign Up</h1>
-					<br>
 					<p>Join now for free ride credit</p>
 			  </div>
-		  </div>
+      </div>
+	 </div>
 	</header>
 	<main>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-4 logo-right">
-					<div class="dropdown">
-						<div class="dropdown">
-				      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				       Dropdown
-				        <span class="caret"></span>
-				      </button>
-						  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						    <li><img src="../assets/img/colombia_flag.png" alt=""> </li>
-						    <li><img src="../assets/img/mexico_flag.png" alt=""></li>
-						    <li><img src="../assets/img/mexico_flag.png" alt=""></li>
-						    <li><img src="../assets/img/mexico_flag.png" alt=""></li>
-						  </ul>
-						</div>
-						</div>
+	  <div class="container">
+		  <div class="row margin-top">
+				<div class="col-xs-12">
+					<div class="input-group">
+					  <div class="input-group-btn">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Países <span class="caret"></span></button>
+							<ul class="dropdown-menu">
+								<li><a><img src="../assets/img/colombia_flag.png" alt="">Colombia</a></li>
+								<li><a><img src="../assets/img/mexico_flag.png" alt="">México</a></li>
+								<li><a><img src="../assets/img/peru_flag.png" alt="">Perú</a></li>
+								<li><a><img src="../assets/img/usa_flag.png" alt="">EE.UU</a></li>
+							</ul>
+					  </div>
+					  <input type="tel" class="form-control" name="telefono" aria-label="...">
 					</div>
-			<div class="row">
-				<div class="col-xs-8 logo-right">
+			  </div>
 
+			</div>
+			<div class="row margin-top">
+				<div class="col-xs-12">
+          <button type="button" class="btn btn-primary btn-lg btn-block pink" disabled>Sign up</button>
 				</div>
 			</div>
-
 		</div>
 	</main>
-
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
 	<script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
 	<script src="../js/signup.js"></script>
