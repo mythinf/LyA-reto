@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var inputEmail = $('#inputEmail');
   var inputPassword = $('#inputPassword');
+  var $btnSignUpNext2 = $('button');
   // asociando eventos
 
   inputEmail.on('input', function(event) {
@@ -10,9 +11,14 @@ $(document).ready(function() {
   });
   inputPassword.on('input', function(event) {
     if ($(inputPassword).val().length >= 6) {
-      alert('correcto!');
+      $btnSignUpNext2.attr('disabled', false);
     }
   });
+  $btnSignUpNext2.on('click', function() {
+    alert('Usuario registrado correctamente');
 
-
+    localStorage.email = inputEmail.val();
+    localStorage.password = inputPassword.val();
+    window.location.href = 'home.html';
+  });
 });
