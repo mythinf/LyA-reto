@@ -1,4 +1,4 @@
-![Responsive-Desktop](assets/img/logo-pink.png)
+![Responsive-Desktop](assets/img/logo1-pink.png)
 
 En el siguiente proyecto se mostrará el aplicativo LyA en versión y movil.
 
